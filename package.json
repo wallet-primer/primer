@@ -1,0 +1,21 @@
+{
+  "name": "primer",
+  "version": "0.1.0",
+  "description": "Read-only aggregation layer for Stellar DeFi protocols",
+  "private": true,
+  "workspaces": [
+    "packages/core",
+    "packages/api",
+    "packages/sdk",
+    "packages/dashboard"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  }
+}

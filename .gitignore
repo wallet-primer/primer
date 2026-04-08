@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+.turbo/
+.next/
+out/
+build/
+
+# Rust/Soroban
+/target
+Cargo.lock
+*.wasm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.vscode

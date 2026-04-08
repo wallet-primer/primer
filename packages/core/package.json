@@ -1,0 +1,26 @@
+{
+  "name": "@primer-finance/core",
+  "version": "0.1.0",
+  "description": "Protocol adapters, normalizer, and shared types",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "zod": "^3.22.0",
+    "stellar-sdk": "^11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  }
+}

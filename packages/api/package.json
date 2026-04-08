@@ -1,0 +1,23 @@
+{
+  "name": "@primer-finance/api",
+  "version": "0.1.0",
+  "description": "REST API server with webhooks",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "bun run src/server.ts",
+    "build": "bun build src/server.ts --outdir dist",
+    "start": "bun dist/server.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@primer-finance/core": "workspace:*",
+    "hono": "^4.0.0",
+    "redis": "^4.6.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  }
+}

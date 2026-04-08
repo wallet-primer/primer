@@ -1,0 +1,15 @@
+# Global owners
+* @primer-team
+
+# Package-specific owners
+/packages/core/ @primer-team
+/packages/api/ @primer-team
+/packages/sdk/ @primer-team
+/packages/dashboard/ @primer-team
+
+# Contract owners
+/contracts/ @primer-team
+
+# Docs and config
+/docs/ @primer-team
+*.md @primer-team

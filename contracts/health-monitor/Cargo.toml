@@ -1,0 +1,17 @@
+[package]
+name = "health-monitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+soroban-sdk = { version = "20.0.0", features = ["contract"] }
+soroban-sdk-macros = "20.0.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
